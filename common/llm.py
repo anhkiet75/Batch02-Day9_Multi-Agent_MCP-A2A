@@ -1,7 +1,7 @@
 """Shared LLM factory for all agents.
 
-Uses OpenRouter as an OpenAI-compatible API, so any provider's model
-can be selected via the OPENROUTER_MODEL env var.
+Uses Groq's OpenAI-compatible API so the provider can be swapped
+centrally via environment variables.
 """
 
 import os
